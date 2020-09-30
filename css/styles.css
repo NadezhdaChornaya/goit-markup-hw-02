@@ -1,0 +1,73 @@
+/* #212121 цвет основоного текста*/
+/* #757575 вторичный цвет*/
+/* #2196F3 синий текст*/
+/* #FFFFFF белый текст*/
+/* rgba(0, 0, 0, 0.15); синие кнопки*/
+/* rgba(255, 255, 255, 0.6); footer contacts*/
+
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-color: #ffffff;
+  --acsent-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+.body {
+  background-color: var(--secondary-color);
+  color: var(--primery-text-color);
+}
+
+/*header bloсk*/
+
+.logo {
+  color: var(--acsent-color);
+}
+.logo:hover {
+  color: var(--title-text-color);
+}
+.list {
+  list-style: none;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .contacts-details:hover {
+  color: var(--acsent-color);
+}
+
+.site-nav .link .current {
+  color: var(--acsent-color);
+}
+
+.contacts .contacts-details {
+  color: var(--primery-text-color);
+}
+
+/*hero block*/
+
+.hero-title {
+  color: var(--secondary-color);
+}
+
+/*section block*/
+
+.section-title,
+.title {
+  color: var(--title-text-color);
+}
+
+/*advantages*/
+
+.advantages-list .title {
+  color: var(--title-text-color);
+}
+
+/*buttom*/
+
+.hero-button {
+  color: var(--secondary-color);
+  background-color: var(--acsent-color);
+}

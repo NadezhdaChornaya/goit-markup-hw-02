@@ -1,0 +1,19 @@
+/* #212121 цвет основоного текста*/
+/* #757575 вторичный цвет*/
+/* #2196F3 синий текст*/
+/* #FFFFFF белый текст*/
+/* rgba(0, 0, 0, 0.15); синие кнопки*/
+/* rgba(255, 255, 255, 0.6); footer contacts*/
+
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --secondary-color: #ffffff;
+  --acsent-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+.body {
+  background-color: var(--secondary-color);
+  color: var(--primery-text-color);
+}
