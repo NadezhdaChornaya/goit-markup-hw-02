@@ -41,7 +41,12 @@
   color: var(--title-text-color);
 }
 
+.logo-footer {
+  color: var(--secondary-color);
+}
+
 /*header bloсk*/
+
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -56,11 +61,8 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-.contacts .contacts-details:hover {
-  color: var(--acsent-color);
-}
-
-.site-nav .link .current {
+.contacts .contacts-details:hover,
+.site-nav .link.active {
   color: var(--acsent-color);
 }
 
@@ -81,6 +83,7 @@
 .address {
   color: var(--secondary-color);
   font-size: 14px;
+  font-style: normal;
   line-height: 1, 71;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -88,6 +91,7 @@
 .contacts {
   color: var(--footer-contacts-color);
   font-size: 14px;
+  font-style: normal;
   line-height: 1, 71;
   letter-spacing: 0.03em;
   text-decoration: none;
