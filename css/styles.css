@@ -2,21 +2,31 @@
 
 .hero {
   background-color: var(--background-color);
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
   color: var(--secondary-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 2px solid tomato;
 }
 
 /*button*/
+.hero-button {
+  text-decoration: none;
+}
 
 .hero .button-text {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
   color: var(--secondary-color);
   background-color: var(--acsent-color);
   font-weight: 700;
@@ -25,7 +35,6 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  text-decoration: none;
 }
 
 /*section block*/

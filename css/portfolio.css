@@ -1,6 +1,8 @@
 /*filter button*/
 
 .button {
+  border-radius: 4px;
+  padding: 6px 22px;
   color: var(--title-text-color);
   background-color: var(--button-background);
   font-family: Roboto, sans-serif;

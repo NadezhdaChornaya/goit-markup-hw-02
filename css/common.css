@@ -15,10 +15,35 @@
   --button-background: #f5f4fa;
 }
 
+/* Тип блочной модели элементов */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .body {
   background-color: var(--secondary-color);
   color: var(--primery-text-color);
   font-family: Roboto, sans-serif;
+}
+
+/* wight: 1170+30px
+padding-left: 15px
+padding-right: 15px; */
+
+/* heared container */
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid tomato;
+  background-color: violet;
 }
 
 .page-header {
@@ -57,6 +82,8 @@
 
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .site-nav .link:hover,
