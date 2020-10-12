@@ -40,6 +40,8 @@
 /*section block*/
 
 .selection .selection-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: var(--title-text-color);
   text-align: center;
   font-weight: 700;
@@ -49,6 +51,8 @@
 }
 
 .title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -58,6 +62,8 @@
 }
 
 .text-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
